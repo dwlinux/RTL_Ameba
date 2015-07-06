@@ -1,0 +1,20 @@
+                        ChangeLog
+----------------------------------------------------------------
+2015/02/02
+	- APP can receive unknown packet due to custom request message flag.
+2014/10/20
+	- Re-fine configure flow when DUT receives first UDP packet.
+2014/10/01
+	- Refined if the profile length>127, configure will fail issue.
+
+2014/08/13
+	- Add Hidden SSID Support
+	
+2014/08/04
+	- Re-fine configure flow 
+	- Re-fine control flow 
+	- Re-fine discovery flow 
+	- Add descriptions of the delay about sending packet
+
+2014/06/19 
+	- Initial Release

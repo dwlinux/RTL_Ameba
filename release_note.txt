@@ -1,0 +1,64 @@
+
+/*
+ * Release Note
+ */
+
+	v3.0a
+	1. First release for 8195a	
+	
+	v3.0c
+	1. Fix WPS and long PassPrhase issue
+
+	-----------------------------------------------------------
+	v3.1a
+	1. Support EVB 2V0
+	
+	v3.1b
+	1. add examples: crypto, i2s, flash, nfc, pw_deepsleep
+	2. update flash layout document: UM0034
+	
+	-----------------------------------------------------------
+	v3.2a
+	1. add examples: pw_deepstandby, pw_sleep, watchdog, timer,
+	   adc(analog_in), uart_irq, 
+	2. wlan: support concurrent mode. support fast reconnect.
+	3. evb: support 8195a 3v0 evaluation board (jlink).
+
+	v3.2b
+	1. Fix SPI clock rate issue
+	2. Update example of disabling uart log before entering d
+	   Deep Sleep Mode
+	3. Update I2C block read api
+
+  	v3.2c
+	1. Modify heap size from 75KB to 70KB	
+
+	v3.2d
+	1. Update for tool chain
+	-----------------------------------------------------------
+	3.3a
+	1. Add peripheral example: 
+		gtimer_rtc, 
+		spi_stream_twoboard: SPI DMA mode
+		uart_clock: use uart to generate clock
+ 	2. Add peripehral device examples: 
+		i2c_epl2197_heartrate: heart rate sensor
+		i2c_epl2590_light: light Sensor
+		i2c_epl2590_proximity: proximity Sensor
+		i2c-shtc1: humidity and temperature Sensor
+		pwm-buzzer: PWM buzzer
+	3. Add application example
+		wlan_fast_connect example
+		multicast example
+		mdns example				
+	3. I2S: api is modified in order to enhance performance.
+	4. Wlan: 
+		enhance AP mode throughput
+		support unassociated idle, associated idle power save
+	5. LwIP: upgrade to LwIP 1.4.1
+	6. Standard library: update standard library
+
+		
+	   	 
+ 
+    Current revision number is unknown   
